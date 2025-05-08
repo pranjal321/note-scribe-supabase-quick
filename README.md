@@ -1,27 +1,9 @@
-
-# Supabase Notes Service
+# PROJECT LINK-
+https://preview--note-scribe-supabase-quick.lovable.app/
+# Notes Service
 
 This project implements a minimal notes service using Supabase for backend storage and authentication.
 
-## Setup & Deployment
-
-1. Create a new Supabase project at [https://app.supabase.com](https://app.supabase.com)
-2. Run the SQL in `functions/schema.sql` in the Supabase SQL Editor
-3. Deploy the Edge Functions using the Supabase CLI:
-   ```bash
-   # Install Supabase CLI if you haven't already
-   npm install -g @supabase/cli
-   
-   # Login to Supabase
-   supabase login
-   
-   # Link to your project
-   supabase link --project-ref your-project-id
-   
-   # Deploy the functions
-   supabase functions deploy get_notes
-   supabase functions deploy post_notes
-   ```
 
 ## Schema Design Choices
 
